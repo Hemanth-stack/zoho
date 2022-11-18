@@ -1,5 +1,5 @@
-m = float(input('m:'))
+m = float(input("m:"))
 
-value = m*((300000000)**2)
+value = m * ((300000000) ** 2)
 
-print('E:',value)
+print("E:", value)

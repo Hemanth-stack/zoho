@@ -10,18 +10,18 @@ month_names = [
     "September",
     "October",
     "November",
-    "December"
+    "December",
 ]
 
 while True:
-    s = input('Date: ')
+    s = input("Date: ")
     try:
-        month,day,year = s.split('/')
-        print(year,month,day,sep='-')
+        month, day, year = s.split("/")
+        print(year, month, day, sep="-")
     except:
         pass
     try:
-        month,day,year = s.split(' ')
-        print(year,month_names.index(month),day[:-1],sep='-')
+        month, day, year = s.split(" ")
+        print(year, month_names.index(month), day[:-1], sep="-")
     except:
         pass

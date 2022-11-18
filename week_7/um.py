@@ -7,7 +7,7 @@ def main():
 
 
 def count(s):
-    return s.count('um')
+    return s.count("um")
 
 
 if __name__ == "__main__":

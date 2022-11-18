@@ -1,5 +1,5 @@
 import emoji as e
 
-string = input('Input : ')
+string = input("Input : ")
 
-print(e.emojize(string,language='alias'))
+print(e.emojize(string, language="alias"))

@@ -7,7 +7,7 @@ d = {
     "Super Burrito": 8.50,
     "Super Quesadilla": 9.50,
     "Taco": 3.00,
-    "Tortilla Salad": 8.00
+    "Tortilla Salad": 8.00,
 }
 
 total = 0
@@ -16,8 +16,8 @@ print(d["Bowl"])
 
 while True:
     try:
-        s = input('Item: ').title()
+        s = input("Item: ").title()
         total += d[s]
-        print('Total: ${:.2f}'.format(total))
+        print("Total: ${:.2f}".format(total))
     except:
         pass
